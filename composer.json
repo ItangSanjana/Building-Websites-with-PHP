@@ -11,6 +11,7 @@
     "require": {
         "php": "^7.0",
         "monolog/monolog": "^1.22",
-        "swiftmailer/swiftmailer": "^5.4"
+        "swiftmailer/swiftmailer": "^5.4",
+        "slim/slim": "^3.7"
     }
 }
