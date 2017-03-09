@@ -1,0 +1,14 @@
+{
+    "name": "itang-sanjana/building-websites-with-php",
+    "description": "Fork of Treehouse \"Building Websites with PHP\" tutorial.",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Itang Sanjana",
+            "email": "arwata@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    }
+}
