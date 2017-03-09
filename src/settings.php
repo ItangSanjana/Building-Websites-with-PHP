@@ -15,5 +15,15 @@ return [
             'path' => __DIR__ . '/../logs/app.log',
             'level' => \Monolog\Logger::DEBUG,
         ],
+
+        // Messager settings
+        'messager' => [
+            'subject' => 'Email From Our Website',
+        ],
+
+        // Mailer settings
+        'mailer' => [
+            'transport' => Swift_SendmailTransport::newInstance('/usr/sbin/sendmail -bs'),
+        ],
     ],
 ];
