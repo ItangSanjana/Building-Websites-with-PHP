@@ -20,8 +20,8 @@
         <header>
             <h1>Ralph Waldo Emerson</h1>
             <nav>
-                <a href="/" class="selected">About</a>
-                <a href="/contact">Contact</a>
+                <a href="/" class="<?=$routeName === 'home'?'selected':'unselected';?>">About</a>
+                <a href="/contact" class="<?=$routeName === 'contact'?'selected':'unselected';?>">Contact</a>
             </nav>
         </header>
         <div class="emerson">
